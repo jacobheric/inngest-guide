@@ -89,3 +89,22 @@ export const retrySteps = inngest.createFunction(
     await step.sleep("sleep-1", "1m");
   }
 );
+
+
+export const future = inngest.createFunction(
+  {
+    id: "multistep-future-retry",
+  },
+  { event: "foo" },
+  async ({ step, attempt }) => {
+    await step.sleep("sleep-1", "1s");
+
+    await step.run("a", () => {
+      if (attempt === 0) {
+        throw new Error("no bueno");
+      }
+    });
+
+    await step.sleep("sleep-1", "1m");
+  }
+);

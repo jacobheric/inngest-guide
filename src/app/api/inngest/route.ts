@@ -2,6 +2,7 @@ import {
   multiStepFast,
   multiStepSleepless,
   multiStepSlow,
+  future,
   parallelSteps,
   retrySteps,
 } from "@/inngest/functions";
@@ -16,5 +17,6 @@ export const { GET, POST, PUT } = serve({
     multiStepSleepless,
     parallelSteps,
     retrySteps,
+    future,
   ],
 });

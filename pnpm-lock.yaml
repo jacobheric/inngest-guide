@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       inngest:
-        specifier: ^3.19.13
-        version: 3.19.13(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.4.5)
+        specifier: 3.22.1
+        version: 3.22.1(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.4.5)
       next:
         specifier: 14.2.3
         version: 14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -806,8 +806,8 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  inngest@3.19.13:
-    resolution: {integrity: sha512-Vc8yy+dq361J4ytqSF0ulc5bSrNCW4/fggpH/5sAvb32zM5ybqcZ9IMHdIpK/Xj7UXJhhtBHweasrpIXJ/mqKA==}
+  inngest@3.22.1:
+    resolution: {integrity: sha512-NHK4hhkEHYIeZlKF3IXXKuQVpayUfH0MaLzEeiVqfANqLKntAJwe4+KlVIgSHkSiIM496GRA6hw2mui5VcaTug==}
     engines: {node: '>=14'}
     peerDependencies:
       '@sveltejs/kit': '>=1.27.3'
@@ -2539,7 +2539,7 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  inngest@3.19.13(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.4.5):
+  inngest@3.22.1(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.4.5):
     dependencies:
       '@types/debug': 4.1.12
       canonicalize: 1.0.8
