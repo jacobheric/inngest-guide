@@ -56,7 +56,5 @@ export async function GET() {
     },
   });
 
-  return NextResponse.json({
-    name: "Hello Inngest, running a bunch of test steps",
-  });
+  return NextResponse.json({ name: "Hello Inngest from Next!" });
 }
